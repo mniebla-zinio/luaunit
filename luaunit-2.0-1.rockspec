@@ -1,7 +1,7 @@
 package = "LuaUnit"
 version = "2.0-1"
 source = {
-	url = "http://github.com/mniebla-zinio/downloads/luaunit/luaunit-2.0-1.tar.gz"
+	url = "http://github.com/mniebla-zinio/downloads/luaunit/luaunit-2.0-1.tgz"
 }
 
 description = {
@@ -23,6 +23,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      luaunit = "src/luaunit.lua"
+      luaunit = "luaunit.lua"
    }
 }
